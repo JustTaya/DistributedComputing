@@ -1,5 +1,11 @@
+import mpi.MPIException;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello");
+        try {
+            VerticalStripesMethod.compute(args, 20, 20);
+        } catch (MPIException e) {
+            e.printStackTrace();
+        }
     }
 }

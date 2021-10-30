@@ -34,3 +34,5 @@ gradle-app.setting
 
 # Cache of project
 .gradletasknamecache
+
+!Lab1/libs/mpi.jar
