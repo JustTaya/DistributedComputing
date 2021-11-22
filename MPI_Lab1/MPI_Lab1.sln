@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MPI_Lab1", "MPI_Lab1\MPI_Lab1.vcxproj", "{11805102-5764-4A5F-A2C5-0C94072EA52C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11805102-5764-4A5F-A2C5-0C94072EA52C}.Debug|x64.ActiveCfg = Debug|x64
+		{11805102-5764-4A5F-A2C5-0C94072EA52C}.Debug|x64.Build.0 = Debug|x64
+		{11805102-5764-4A5F-A2C5-0C94072EA52C}.Debug|x86.ActiveCfg = Debug|Win32
+		{11805102-5764-4A5F-A2C5-0C94072EA52C}.Debug|x86.Build.0 = Debug|Win32
+		{11805102-5764-4A5F-A2C5-0C94072EA52C}.Release|x64.ActiveCfg = Release|x64
+		{11805102-5764-4A5F-A2C5-0C94072EA52C}.Release|x64.Build.0 = Release|x64
+		{11805102-5764-4A5F-A2C5-0C94072EA52C}.Release|x86.ActiveCfg = Release|Win32
+		{11805102-5764-4A5F-A2C5-0C94072EA52C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8212EA32-2997-4966-ADEB-06B208C42C1E}
+	EndGlobalSection
+EndGlobal
