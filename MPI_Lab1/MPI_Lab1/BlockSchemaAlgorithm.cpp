@@ -52,7 +52,6 @@ void BlockSchemaAlgorithm::DataDistribution(double* pMatrix, double* pProcMatrix
 	pSendVecNum[0] = ColumnNum;
 	pSendVecInd[0] = 0;
 	for (int i = 1; i < ProcNum; i++) {
-
 		pSendNum[i] = RowNum * ColumnNum;
 		pSendInd[i] = pSendInd[i - 1] + pSendNum[i - 1];
 		pSendVecNum[i] = ColumnNum;
@@ -71,7 +70,7 @@ void BlockSchemaAlgorithm::DataDistribution(double* pMatrix, double* pProcMatrix
 }
 
 void BlockSchemaAlgorithm::ParallelResultCalculation(double* pProcMatrix, double* pProcVector, double* pProcResult, int RowNum, int ColumnNum) {
-	int i, j;  // Loop variables
+	int i, j;
 	for (i = 0; i < RowNum; i++)
 		pProcResult[i] = 0;
 	for (i = 0; i < RowNum; i++) {

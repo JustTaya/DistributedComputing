@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <mpi.h>
 #include <iostream>
-#include "BlockSchemaAlgorithm.h"
+#include "SerialAlgorithm.h"
 
 int main(int argc, char* argv[]) {
-    auto algo = new BlockSchemaAlgorithm();
+    auto algo = new SerialAlgorithm();
 
     algo -> execute(argc, argv);
 

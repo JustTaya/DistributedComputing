@@ -10,7 +10,7 @@ double SerialAlgorithm::execute(int argc, char* argv[])
 
 	double* pMatrix, * pVector, * pResult;
 
-	int Size = atoi(argv[1]);
+	int Size = 6500;
 
 	pVector = new double[Size];
 	pResult = new double[Size];
@@ -41,7 +41,7 @@ void SerialAlgorithm::RandomDataInitialization(double*& pMatrix, double*& pVecto
 
 void SerialAlgorithm::SequentialResultCalculation(double* pMatrix, double* pVector, double* pResult, int Size)
 {
-	int i, j;
+	int i, j; 
 	for (i = 0; i < Size; i++)
 		pResult[i] = 0;
 	for (j = 0; j < Size; j++) {
