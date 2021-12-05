@@ -16,6 +16,11 @@ private:
 		double*& pResult, double*& pProcRows, double*& pProcVector,
 		double*& pProcResult, int& Size, int& RowNum);
 
+	void DataDistribution(double* pMatrix, double* pProcRows, double* pVector,
+		double* pProcVector, int Size, int RowNum);
+
+	void ResultCollection(double* pProcResult, double* pResult);
+
 	void RandomDataInitialization(double* pMatrix, double* pVector, int Size);
 
 	void ParallelResultCalculation(double* pProcRows, double* pProcVector,

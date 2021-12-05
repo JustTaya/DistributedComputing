@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <iostream>
-#include "SerialAlgorithm.h"
+#include "ParallelGaussAlgorithm.h"
 
 int main(int argc, char* argv[]) {
-    auto algo = new SerialAlgorithm();
+    auto algo = new ParallelGaussAlgorithm();
 
     algo->execute(argc, argv);
 

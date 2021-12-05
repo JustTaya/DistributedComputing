@@ -29,6 +29,8 @@ double SerialAlgorithm::execute(int argc, char* argv[])
 
 		ProcessTermination(pMatrix, pVector, pResult);
 	}
+
+	return 0;
 }
 
 void SerialAlgorithm::ProcessInitialization(double*& pMatrix, double*& pVector, double*& pResult, int& Size)
